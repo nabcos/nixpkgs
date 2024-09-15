@@ -9,6 +9,7 @@
 let
   releases = {
     k0s_1_28 = import ./1_28.nix;
+    k0s_1_30 = import ./1_30.nix;
   };
 in
 builtins.mapAttrs

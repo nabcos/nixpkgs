@@ -31007,8 +31007,9 @@ with pkgs;
 
   inherit (callPackage ../applications/networking/cluster/k0s { })
     k0s_1_28
+    k0s_1_30
   ;
-  k0s = k0s_1_28;
+  k0s = k0s_1_30;
 
   inherit (callPackage ../applications/networking/cluster/k3s { })
     k3s_1_28
